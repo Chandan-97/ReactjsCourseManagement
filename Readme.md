@@ -77,3 +77,22 @@ We'll be using json server.
 cross-env is used for setting environment variables
 npm-run-all is used to run multiple scripts
 json-server will serve our mock data
+
+## React Core Concepts
+
+React is a simple composable component library
+M -React state handles the Model
+V -React works with frontend
+C -Components can have some logic
+
+React handles markups through JSX.
+It is a xml like syntax called JSX.
+It's almost like HTML, it's not HTML but almost like HTML, instead with minor difference.
+Babel compiles JSX to javascript.
+With virtual DOM compare current state with desired new state and update DOM in most efficient way.
+
+React offers synthetic events
+Synthetic events abstract out browser specific event cores and allow react to optimize the performance.
+It's like if we attach event listener in each row of the table then react will automatically attach listener to the highest level for performance reason.
+Isomorphic support
+React Native -> Implement react in native application, where the DOM doesn't exist.
